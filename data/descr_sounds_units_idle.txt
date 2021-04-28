@@ -1,0 +1,410 @@
+;##############################
+;##### SOUNDS - UNIT IDLE #####
+;##############################
+
+DEFAULT: 3d mindist 5 minPitch .8 maxPitch 1.1 volume -40 priority 60 probability 1 distancepriority -2 fadein 0 fadeout 0 randomdelay 0  effect_level .25 rndvolume -15
+
+
+
+;###############################
+;##### SOUNDS - HUMAN IDLE #####
+;###############################
+
+BANK: unit_idle
+
+	; Anim based idle sounds, no need.
+
+
+
+;################################
+;##### SOUNDS - ANIMAL IDLE #####
+;################################
+
+BANK: animal_idle
+
+;##### Balrog
+
+	mount creature_balrog
+		event lod 1 probability 0.07 volume -10 mindist 8
+			folder data/sounds/Voice/Animal/Elephant
+			eubalro_vanquib.wav
+			eubalro_vanquia.wav
+			eusauro_voimovc.wav
+			eubalro_sigha.wav
+			eubalro_sighb.wav
+			eubalro_idlec1b.wav
+			eubalro_idlec1c.wav
+			eubalro_idleb3b.wav
+			eubalro_idlec1a.wav
+			eubalro_idleb2b.wav
+			eubalro_distan1.wav
+		end
+		event lod 3 probability 0.08 volume -5 mindist 10
+			folder data/sounds/Voice/Animal/Elephant
+			eubalro_vanquib.wav
+			eubalro_vanquia.wav
+			eusauro_voimovc.wav
+			eubalro_sigha.wav
+			eubalro_sighb.wav
+			eubalro_idlec1b.wav
+			eubalro_idlec1c.wav
+			eubalro_idleb3b.wav
+			eubalro_idlec1a.wav
+			eubalro_idleb2b.wav
+			eubalro_distan1.wav
+		end
+		event lod 5 probability 0.09 volume -5 mindist 12
+			folder data/sounds/Voice/Animal/Elephant
+			eubalro_vanquib.wav
+			eubalro_vanquia.wav
+			eusauro_voimovc.wav
+			eubalro_sigha.wav
+			eubalro_sighb.wav
+			eubalro_idlec1b.wav
+			eubalro_idlec1c.wav
+			eubalro_idleb3b.wav
+			eubalro_idlec1a.wav
+			eubalro_idleb2b.wav
+			eubalro_distan1.wav
+		end
+
+;##### Camel / Gorgoroth Beast
+
+	mount gorgoroth_beast, southern_camel
+		event lod 1 probability 0.04 volume -25 mindist 4
+			folder data/sounds/Voice/Animal/Camel
+			Camel_Groan_02
+			Camel_Groan_03
+			Camel_Groan_04
+			Camel_Groan_06
+			Camel_Groan_09
+			Camel_Groan_22
+			Camel_Groan_23
+			Camel_Groan_24
+			Camel_Groan_25
+			Camel_Groan_26
+			Camel_Groan_27
+			Camel_Groan_28
+			Camel_Groan_29
+			Camel_Groan_30
+			Camel_Groan_31
+			Camel_Groan_32
+			Camel_Groan_33
+			
+		end
+		event lod 10 probability 0.06 volume -20 mindist 5
+			folder  data/sounds/Voice/Animal/Camel
+			Camel_Groan_02
+			Camel_Groan_03
+			Camel_Groan_04
+			Camel_Groan_06
+			Camel_Groan_09
+			Camel_Groan_22
+			Camel_Groan_23
+			Camel_Groan_24
+			Camel_Groan_25
+			Camel_Groan_26
+			Camel_Groan_27
+			Camel_Groan_28
+			Camel_Groan_29
+			Camel_Groan_30
+			Camel_Groan_31
+			Camel_Groan_32
+			Camel_Groan_33
+			
+		end
+		event lod 20 probability 0.08 volume -20 mindist 6
+			folder data/sounds/Voice/Animal/Camel
+			Camel_Groan_02
+			Camel_Groan_03
+			Camel_Groan_04
+			Camel_Groan_06
+			Camel_Groan_09
+			Camel_Groan_22
+			Camel_Groan_23
+			Camel_Groan_24
+			Camel_Groan_25
+			Camel_Groan_26
+			Camel_Groan_27
+			Camel_Groan_28
+			Camel_Groan_29
+			Camel_Groan_30
+			Camel_Groan_31
+			Camel_Groan_32
+			Camel_Groan_33
+		end
+
+;##### Ent
+
+	mount creature_ent
+		event lod 1 probability 0.07 volume -10 mindist 8
+			folder data/sounds/Voice/Animal/Elephant
+			guent_voisela.wav
+			guent_voiselb.wav
+			guent_voiselc.wav
+			guent_voiseld.wav
+			guent_voisele.wav
+			guent_voiself.wav
+			guent_voiselg.wav
+			guent_voiselh.wav
+			guent_voiseli.wav
+			guent_voxfina.wav
+			guent_voxfinb.wav
+			guent_voxfinc.wav
+		end
+		event lod 3 probability 0.08 volume -5 mindist 10
+			folder data/sounds/Voice/Animal/Elephant
+			guent_voisela.wav
+			guent_voiselb.wav
+			guent_voiselc.wav
+			guent_voiseld.wav
+			guent_voisele.wav
+			guent_voiself.wav
+			guent_voiselg.wav
+			guent_voiselh.wav
+			guent_voiseli.wav
+			guent_voxfina.wav
+			guent_voxfinb.wav
+			guent_voxfinc.wav
+		end
+		event lod 5 probability 0.09 volume -5 mindist 12
+			folder data/sounds/Voice/Animal/Elephant
+			guent_voisela.wav
+			guent_voiselb.wav
+			guent_voiselc.wav
+			guent_voiseld.wav
+			guent_voisele.wav
+			guent_voiself.wav
+			guent_voiselg.wav
+			guent_voiselh.wav
+			guent_voiseli.wav
+			guent_voxfina.wav
+			guent_voxfinb.wav
+			guent_voxfinc.wav
+		end
+
+;##### Horse
+
+	mount barded horse, barded horse2, barded horse3, barded horse4, barded horse5, barded horse6, barded horse7, eastern armoured horse, eastern horse, elven horse, eorlingas horse, gondor horse, heavy horse, khand armoured horse, mailed horse2, mailed horse3, mailed horse4, merchant horse, nazgul horse, northern heavy horse, simple horse, swan guard horse
+		event lod 1 probability 0.07 volume -30 mindist 3
+			folder data/sounds/Voice/Animal/Horse
+			horse_snort_01
+			horse_snort_02
+			horse_snort_03
+			horse_snort_04
+			folder data/sounds/Voice/Animal/Horse
+			horse_nay_01
+			horse_nay_06
+			horse_nay_07
+			horse_nay_09
+			horse_nay_10
+			horse_nay_11
+			horse_nay_12
+			
+		end
+		event lod 10 probability 0.08 volume -20 mindist 4
+			folder data/sounds/Voice/Animal/Horse
+			horse_snort_01
+			horse_snort_02
+			horse_snort_03
+			horse_snort_04
+			folder data/sounds/Voice/Animal/Horse
+			horse_nay_01
+			horse_nay_06
+			horse_nay_07
+			horse_nay_09
+			horse_nay_10
+			horse_nay_11
+			horse_nay_12
+			horse_nay_21
+			horse_nay_22
+		end
+		event lod 20 probability 0.09 volume -20 mindist 5
+			folder data/sounds/Voice/Animal/Horse
+			horse_snort_01
+			horse_snort_02
+			horse_snort_03
+			horse_snort_04
+			folder data/sounds/Voice/Animal/Horse
+			horse_nay_01
+			horse_nay_06
+			horse_nay_07
+			horse_nay_09
+			horse_nay_10
+			horse_nay_11
+			horse_nay_12
+			horse_nay_21
+			horse_nay_22
+		end
+
+;##### Mumakil
+
+	mount elephant_cannon
+		event lod 1 probability 0.07 volume -10 mindist 8
+			folder data/sounds/Voice/Animal/Elephant
+			eumumak_rampvo1
+			eumumak_rampvo2
+			eumumak_rampvo3
+			eumumak_voiatta
+			eumumak_voiattb
+			eumumak_voiattc
+			eumumak_voiattd
+			eumumak_voisela
+			eumumak_voiselb
+			eumumak_voiselc
+			eumumak_voiseld
+			eumumak_voisele
+			eumumak_voiself
+		end
+		event lod 10 probability 0.08 volume -5 mindist 10
+			folder data/sounds/Voice/Animal/Elephant
+			eumumak_rampvo1
+			eumumak_rampvo2
+			eumumak_rampvo3
+			eumumak_voiatta
+			eumumak_voiattb
+			eumumak_voiattc
+			eumumak_voiattd
+			eumumak_voisela
+			eumumak_voiselb
+			eumumak_voiselc
+			eumumak_voiseld
+			eumumak_voisele
+			eumumak_voiself
+		end
+		event lod 20 probability 0.09 volume -5 mindist 12
+			folder data/sounds/Voice/Animal/Elephant
+			eumumak_rampvo1
+			eumumak_rampvo2
+			eumumak_rampvo3
+			eumumak_voiatta
+			eumumak_voiattb
+			eumumak_voiattc
+			eumumak_voiattd
+			eumumak_voisela
+			eumumak_voiselb
+			eumumak_voiselc
+			eumumak_voiseld
+			eumumak_voisele
+			eumumak_voiself
+		end
+
+;##### Sauron
+
+	mount creature_sauron
+		event lod 1 probability 0.07 volume -10 mindist 8
+			folder data/sounds/Voice/Animal/Elephant
+			eusauro_voimova.wav
+			eusauro_voimovb.wav
+			eusauro_voimovc.wav
+			eusauro_voisela.wav
+			eusauro_voiselb.wav
+			eusauro_voiselc.wav
+			eusauro_voxsela.wav
+			eusauro_voxselb.wav
+			eusauro_voxselc.wav
+			eusauro_voxseld.wav
+			eusauro_voxsele.wav
+			eusauro_voxself.wav
+			eusauro_voxselg.wav
+		end
+		event lod 3 probability 0.08 volume -5 mindist 10
+			folder data/sounds/Voice/Animal/Elephant
+			eusauro_voimova.wav
+			eusauro_voimovb.wav
+			eusauro_voimovc.wav
+			eusauro_voisela.wav
+			eusauro_voiselb.wav
+			eusauro_voiselc.wav
+			eusauro_voxsela.wav
+			eusauro_voxselb.wav
+			eusauro_voxselc.wav
+			eusauro_voxseld.wav
+			eusauro_voxsele.wav
+			eusauro_voxself.wav
+			eusauro_voxselg.wav
+		end
+		event lod 5 probability 0.09 volume -5 mindist 12
+			folder data/sounds/Voice/Animal/Elephant
+			eusauro_voimova.wav
+			eusauro_voimovb.wav
+			eusauro_voimovc.wav
+			eusauro_voisela.wav
+			eusauro_voiselb.wav
+			eusauro_voiselc.wav
+			eusauro_voxsela.wav
+			eusauro_voxselb.wav
+			eusauro_voxselc.wav
+			eusauro_voxseld.wav
+			eusauro_voxsele.wav
+			eusauro_voxself.wav
+			eusauro_voxselg.wav
+		end
+
+;##### Warg (Big)
+
+	mount warg_camel
+		event lod 1 probability 0.07 volume -10 mindist 8
+			folder data/sounds/Voice/Animal/Warg
+			warg_attack3.wav
+			Warg_Growl1.wav
+			Warg_Growl2.wav
+			Warg_Growl3.wav
+			warg_idle1.wav
+			warg_idle2.wav
+			warg_idle3.wav
+		end
+		event lod 10 probability 0.08 volume -5 mindist 10
+			folder data/sounds/Voice/Animal/Warg
+			warg_attack3.wav
+			Warg_Growl1.wav
+			Warg_Growl2.wav
+			Warg_Growl3.wav
+			warg_idle1.wav
+			warg_idle2.wav
+			warg_idle3.wav
+		end
+		event lod 20 probability 0.09 volume -5 mindist 12
+			folder data/sounds/Voice/Animal/Warg
+			warg_attack3.wav
+			Warg_Growl1.wav
+			Warg_Growl2.wav
+			Warg_Growl3.wav
+			warg_idle1.wav
+			warg_idle2.wav
+			warg_idle3.wav
+		end
+
+;##### Warg (Small)
+
+	mount mount_light_wolf
+		event lod 1 probability 0.07 volume -10 mindist 8
+			folder data/sounds/Voice/Animal/Warg
+			euwargs_howlsa.wav
+			euwargs_howlsb.wav
+			euwargs_howlsc.wav
+			euwargs_howlsd.wav
+			warg_idle1.wav
+			warg_idle2.wav
+			warg_idle3.wav
+		end
+		event lod 10 probability 0.08 volume -5 mindist 10
+			folder data/sounds/Voice/Animal/Warg
+			euwargs_howlsa.wav
+			euwargs_howlsb.wav
+			euwargs_howlsc.wav
+			euwargs_howlsd.wav
+			warg_idle1.wav
+			warg_idle2.wav
+			warg_idle3.wav
+		end
+		event lod 20 probability 0.09 volume -5 mindist 12
+			folder data/sounds/Voice/Animal/Warg
+			euwargs_howlsa.wav
+			euwargs_howlsb.wav
+			euwargs_howlsc.wav
+			euwargs_howlsd.wav
+			warg_idle1.wav
+			warg_idle2.wav
+			warg_idle3.wav
+		end

@@ -1,0 +1,63 @@
+religions
+{
+	catholic
+	dwarven
+	islam
+	northmen
+	heretic
+	elven
+	orthodox
+	nomadic
+	wildmen
+	kings
+}
+
+religion catholic
+{
+	pip_path	ui/pips/pip_evil.tga
+}
+
+religion dwarven
+{
+	pip_path	ui/pips/pip_dwarves.tga
+}
+
+religion islam
+{
+	pip_path	ui/pips/pip_numenorian.tga
+}
+
+religion northmen
+{
+	pip_path	ui/pips/pip_northmen.tga
+}
+
+religion heretic
+{
+	pip_path	ui/pips/pip_heretic.tga
+}
+
+religion elven
+{
+	pip_path	ui/pips/pip_elvish.tga
+}
+
+religion orthodox
+{
+	pip_path	ui/pips/pip_wicked2.tga
+}
+
+religion nomadic
+{
+	pip_path	ui/pips/pip_nomadic.tga
+}
+
+religion wildmen
+{
+	pip_path	ui/pips/pip_middlemen.tga
+}
+
+religion kings
+{
+	pip_path	ui/pips/pip_kings.tga
+}

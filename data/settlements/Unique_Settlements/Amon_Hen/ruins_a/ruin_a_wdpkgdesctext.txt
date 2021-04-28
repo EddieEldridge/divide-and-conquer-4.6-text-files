@@ -1,0 +1,13 @@
+ 10 amon_hen_a
+  7 ambient
+ 56 settlements/Unique_Settlements/Amon_Hen/amon_hen_a.world
+3         number of pairs of attributes to follow 
+  7 culture
+ 17 northern_european
+
+ 18 fortificationlevel
+  4 none
+
+  4 type
+  5 stone
+

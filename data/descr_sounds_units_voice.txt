@@ -1,0 +1,17 @@
+;################################
+;##### SOUNDS - UNIT EVENTS #####
+;################################
+
+DEFAULT: 3D distancepriority 0 priority 200 probability 1 delay .25 randomdelay 0 rndvolume 0 effect_level .5 mindist 17 minpitch .9 maxpitch 1.0 volume 0 fadein 0 fadeout 0 pref SFX
+
+source export_descr_sounds_units_voice.txt
+
+;#################################
+;##### SOUNDS - UNIT EFFECTS #####
+;#################################
+
+DEFAULT: 3D distancepriority -2 priority 100 probability 1 probradius 2 delay 0 randomdelay 0 rndvolume -20 effect_level .5 mindist 1 minpitch .9 maxpitch 1.0 volume 0 fadein 0 fadeout 0 pref SFX
+
+required_samples_cutoff 10
+
+source export_descr_sounds_soldier_voice.txt

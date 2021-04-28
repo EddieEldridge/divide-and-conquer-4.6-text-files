@@ -1,0 +1,49 @@
+;######################################
+;##### SOUNDS - UNIT CELEBRATIONS #####
+;######################################
+
+DEFAULT: 3d mindist 5 priority 170 fadein 1 fadeout 3 minpitch .9 maxpitch 1.0 volume 0 probability 1 distancepriority -1 randomdelay 1  effect_level .5 pref SFX
+
+BANK: unit_celebrate
+	
+	unit cavalry heavy, light,  missile, skirmish, spearmen
+		event lod 5  
+			folder data/sounds/SFX/group/Infantry
+			infantry_group_celebrate_small_01
+		end
+		event lod 10
+			folder data/sounds/SFX/group/Infantry
+			infantry_group_celebrate_small_01
+		end
+		event lod 30
+			folder data/sounds/SFX/group/Infantry
+			infantry_group_celebrate_large_01
+		end
+
+	unit infantry heavy, light, missile, skirmish, spearmen
+		event lod 5  
+			folder data/sounds/SFX/group/Infantry
+			infantry_group_celebrate_small_01
+		end
+		event lod 10
+			folder data/sounds/SFX/group/Infantry
+			infantry_group_celebrate_small_01
+		end
+		event lod 30
+			folder data/sounds/SFX/group/Infantry
+			infantry_group_celebrate_large_01
+		end
+	     
+	unit siege heavy, light, missile, skirmish, spearmen
+		event lod 5  
+			folder data/sounds/SFX/group/Infantry
+			infantry_group_celebrate_small_01
+		end
+		event lod 10
+			folder data/sounds/SFX/group/Infantry
+			infantry_group_celebrate_small_01
+		end
+		event lod 30
+			folder data/sounds/SFX/group/Infantry
+			infantry_group_celebrate_large_01
+		end

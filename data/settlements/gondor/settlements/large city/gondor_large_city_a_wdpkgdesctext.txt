@@ -1,0 +1,22 @@
+ 19 gondor_large_city_A
+ 10 settlement
+ 67 settlements/Gondor/Settlements/Large City/gondor_large_city_A.world
+6         number of pairs of attributes to follow 
+  7 culture
+  6 gondor
+
+ 11 environment
+  7 generic
+
+  7 faction
+  3 any
+
+ 18 fortificationlevel
+  4 none
+
+  4 type
+ 10 large_city
+
+  7 variant
+  4 none
+

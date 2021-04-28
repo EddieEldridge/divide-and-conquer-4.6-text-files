@@ -1,0 +1,22 @@
+ 19 gondor_stone_keep_A
+ 10 settlement
+ 63 settlements/gondor/castles/stone_keep/gondor_stone_keep_a.world
+6         number of pairs of attributes to follow 
+  7 culture
+  6 gondor
+
+ 11 environment
+  7 generic
+
+  7 faction
+  3 any
+
+ 18 fortificationlevel
+  4 none
+
+  4 type
+ 10 stone_keep
+
+  7 variant
+  4 none
+

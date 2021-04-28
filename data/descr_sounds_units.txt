@@ -1,0 +1,18 @@
+;##########################
+;##### SOUNDS - UNITS #####
+;##########################
+
+DEFAULT: 3d mindist 8 minPitch .7 maxPitch 1.2 fadein 2.5 fadeout 2.5 volume 0 probability 1 randomdelay 0 effect_level .25
+
+grid_cell_size 40
+do_unit_anim_switch 0
+unit_anim_switch 2
+unit_start_delay 0
+unit_change_delay 0
+unit_collide_threshold 10
+unit_under_attack_delay 120
+unit_warhorns_delay 9
+do_unit_idle_probability 1
+unit_idle_probability_scale 3.5
+do_unit_ambient_probability 1
+unit_ambient_probability_scale 3.5

@@ -1,0 +1,351 @@
+;#########################################
+;##### SOUNDS - SIEGE ENGINE EFFECTS #####
+;#########################################
+
+DEFAULT: 3d mindist 5 minPitch .8 maxPitch 1.2 priority 70 fadein .25 fadeout 2 Volume 0 probability 1 distancepriority 0 randomdelay 0 effect_level .25
+
+BANK: engine_move
+
+;##### Ignore
+
+	class ladder
+		ignore
+
+;##### Ballista
+
+	class ballista
+		season summer, winter
+			terrain ice, stone_road
+				event lod 1 volume -5 mindist 2
+					folder data/sounds/SFX/Individual/Siege_Engines
+					Cannon_move_01
+				end
+				event lod 2 volume -5 mindist 4
+				folder data/sounds/SFX/Individual/Siege_Engines
+					Cannon_group_move_01
+				end
+			terrain mud, mud_road, swamp
+				event lod 1 volume -5 mindist 2
+					folder data/sounds/SFX/Individual/Siege_Engines
+					Cannon_move_01
+				end
+				event lod 2 volume -5 mindist 4
+					folder data/sounds/SFX/Individual/Siege_Engines
+					Cannon_group_move_01
+				end
+			terrain sand
+				event lod 1 volume 0 mindist 2
+					folder data/sounds/SFX/Individual/Siege_Engines
+					Cannon_move_01
+				end
+				event lod 2 volume 0 mindist 4
+					folder data/sounds/SFX/Individual/Siege_Engines
+					Cannon_group_move_01
+				end
+	       		terrain  water
+				event lod 1 volume -10 mindist 2
+					folder data/sounds/SFX/Individual/Siege_Engines/Ballista/Water
+					Siege_Ball_Move_Water_01
+					Siege_Ball_Move_Water_02
+					Siege_Ball_Move_Water_03
+				end
+				event lod 2 volume -5 mindist 4
+					folder data/sounds/SFX/Group/Siege/Ballista
+					Siege_Group_Ball_Move_Water
+				end
+			terrain wood
+				event lod 1 volume -5 mindist 2
+					folder data/sounds/SFX/Individual/Siege_Engines
+					Cannon_move_01
+				end
+				event lod 2 volume -5 mindist 4
+					folder data/sounds/SFX/Individual/Siege_Engines
+					Cannon_group_move_01
+				end
+		season summer
+			terrain dirt, forest_dense, grass_long, grass_short, rock, scrub_dense
+				event lod 1 volume 0 mindist 2
+					folder data/sounds/SFX/Individual/Siege_Engines
+					Cannon_move_01
+				end
+				event lod 2 volume 0 mindist 4
+					folder data/sounds/SFX/Individual/Siege_Engines
+					Cannon_group_move_01
+				end
+		season winter
+			climates semi_arid, temperate_deciduous_forest, temperate_coniferous_forest, highland, alpine, tropical, mediterranean, unused1
+				terrain dirt, forest_dense, grass_long, grass_short, rock, scrub_dense, snow, wood
+					event lod 1 volume -15 mindist 2
+						folder data/sounds/SFX/Individual/Siege_Engines
+						Cannon_move_snow_01
+			        	end
+					event lod 2 volume -15 mindist 4
+					folder data/sounds/SFX/Individual/Siege_Engines
+						Cannon_group_move_snow_01
+					end
+
+;##### Catapult / Holy Cart
+
+	class catapult, holy_cart
+		season summer, winter
+			terrain ice, stone_road
+				event lod 1 volume -5 mindist 2
+					folder data/sounds/SFX/Individual/Siege_Engines/Onager/Stone
+					Siege_Onager_Move_Stone
+				end
+				event lod 2 volume -5 mindist 4
+					folder data/sounds/SFX/Group/Siege/Onager
+					Siege_Group_Onager_Move_Stone
+				end
+			terrain mud, mud_road, swamp
+				event lod 1 volume -20 mindist 2
+					folder data/sounds/SFX/Individual/Siege_Engines/Onager/Grass
+					Siege_Onager_Move_Grass
+				end
+				event lod 2 volume 0 mindist 4
+					folder data/sounds/SFX/Group/Siege/Onager
+					Siege_Group_Onager_Move_Grass
+				end
+			terrain sand
+				event lod 1 volume -20 mindist 2
+					folder data/sounds/SFX/Individual/Siege_Engines/Onager/Grass
+					Siege_Onager_Move_Grass
+				end
+				event lod 2 volume -20 mindist 4
+					folder data/sounds/SFX/Group/Siege/Onager
+					Siege_Group_Onager_Move_Grass
+				end
+	       		terrain  water
+				event lod 1 volume -5 mindist 2
+					folder data/sounds/SFX/Individual/Siege_Engines/Onager/Water
+					Siege_Onager_Move_Water
+				end
+				event lod 2 volume -5 mindist 4
+					folder data/sounds/SFX/Group/Siege/Onager
+					Siege_Group_Onager_Move_water
+				end
+			terrain wood
+				event lod 1 volume -5 mindist 2
+					folder data/sounds/SFX/Individual/Siege_Engines/Onager/Wood
+					Siege_Onager_Move_Wood
+				end
+				event lod 2 volume -5 mindist 4
+					folder data/sounds/SFX/Group/Siege/Onager
+					Siege_Group_Onager_Move_wood
+				end
+		season summer
+			terrain dirt, forest_dense, grass_long, grass_short, rock, scrub_dense
+				event lod 1 volume -20 mindist 2
+					folder data/sounds/SFX/Individual/Siege_Engines/Onager/Grass
+					Siege_Onager_Move_Grass
+				end
+				event lod 2 volume -20 mindist 4
+					folder data/sounds/SFX/Group/Siege/Onager
+					Siege_Group_Onager_Move_Grass
+				end
+		season winter
+			climates semi_arid, temperate_deciduous_forest, temperate_coniferous_forest, highland, alpine, tropical, mediterranean, unused1
+				terrain dirt, forest_dense, grass_long, grass_short, rock, scrub_dense, snow, wood
+					event lod 1 volume -15 mindist 2
+						folder data/sounds/SFX/Individual/Siege_Engines/Onager/Snow
+						Siege_Onager_Move_Snow
+			        	end
+					event lod 2 volume -10 mindist 4
+					folder data/sounds/SFX/Group/Siege/Onager
+						Siege_Group_Onager_Move_snow
+					end
+
+;##### Ram
+
+	class ram
+		season summer, winter
+			terrain ice, stone_road
+				event lod 1 volume 0
+					folder data/sounds/SFX/Individual/Siege_Engines/all_rams
+					Siege_Ram_Move_Stone_02
+				end
+			terrain mud, mud_road, swamp
+				event lod 1 volume 0
+					folder data/sounds/SFX/Individual/Siege_Engines/all_rams
+					Siege_Ram_Move_Grass_03
+				end
+			terrain sand
+				event lod 1 volume 0
+					folder data/sounds/SFX/Individual/Siege_Engines/all_rams
+					Siege_Ram_Move_Grass_03
+				end
+	       		terrain  water
+				event lod 1 volume 0
+					folder data/sounds/SFX/Individual/Siege_Engines/all_rams
+					Siege_Ram_Move_Water
+				end
+			terrain wood
+				event lod 1 volume 0
+					folder data/sounds/SFX/Individual/Siege_Engines/all_rams
+					Siege_Ram_Move_Wood
+				end
+		season summer
+			terrain dirt, forest_dense, grass_long, grass_short, rock, scrub_dense
+				event lod 1 volume 0
+					folder data/sounds/SFX/Individual/Siege_Engines/all_rams
+					Siege_Ram_Move_Grass_03
+				end
+		season winter
+			climates semi_arid, temperate_deciduous_forest, temperate_coniferous_forest, highland, alpine, tropical, mediterranean, unused1
+				terrain dirt, forest_dense, grass_long, grass_short, rock, scrub_dense, snow, wood
+					event lod 1 volume 0
+						folder data/sounds/SFX/Individual/Siege_Engines/all_rams
+						Siege_Ram_Move_Snow
+			        	end
+
+;##### Tower / Trebuchet
+
+	class tower, trebuchet, mangonel
+		season summer, winter
+			terrain ice, stone_road
+				event lod 1 mindist 10
+					folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower/Stone
+					Siege_Tower_Move_Stone
+				end
+			terrain mud, mud_road, swamp
+				event lod 1 volume -20 mindist 10
+					folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower/Grass
+					Siege_Tower_Move_Grass
+				end
+			terrain sand
+				event lod 1 volume -20 mindist 10
+					folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower/Grass
+					Siege_Tower_Move_Grass
+				end
+	       		terrain  water
+				event lod 1 mindist 10
+					folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower/Water
+					Siege_Tower_Move_Water
+				end
+			terrain wood
+				event lod 1 mindist 10
+					folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower/Wood
+					Siege_Tower_Move_Wood
+				end
+		season summer
+			terrain dirt, forest_dense, grass_long, grass_short, rock, scrub_dense
+				event lod 1 volume -20 mindist 10
+					folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower/Grass
+					Siege_Tower_Move_Grass
+				end
+		season winter
+			climates semi_arid, temperate_deciduous_forest, temperate_coniferous_forest, highland, alpine, tropical, mediterranean, unused1
+				terrain dirt, forest_dense, grass_long, grass_short, rock, scrub_dense, snow, wood
+					event lod 1 mindist 10 volume -15
+						folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower/snow
+						Siege_Tower_Move_Snow
+			        	end
+
+
+
+;#########################################
+;##### SOUNDS - SIEGE ENGINE AMBIENT #####
+;#########################################
+
+DEFAULT: 3d mindist 5 priority 70 probability 0.05 volume 0 rndvolume -10 minpitch .7 maxpitch 1.1 mindist 1.5 fadein 0 fadeout 0 randomdelay .25 effect_level .25 distancepriority 0
+
+BANK: engine_ambient
+
+;##### Ignore
+
+	class ladder
+		ignore
+
+;##### Ballista / Catapult / Trebuchet
+
+	class ballista, catapult, trebuchet
+		season summer, winter
+			terrain dirt, forest_dense, grass_long, grass_short, ice, mud, mud_road, rock, sand, scrub_dense, snow, stone_road, swamp, water, wood
+				event minpitch .8 maxpitch 1.1
+					folder data/sounds/SFX/Individual/Movement
+					ballista_Creak_01
+					ballista_Creak_02
+					ballista_Creak_03
+					ballista_Creak_04
+					ballista_Creak_05
+					ballista_Creak_06
+					ballista_Creak_07
+					ballista_Creak_08
+					ballista_Creak_08
+					Onager_Creak_01
+					Onager_Creak_02
+					Onager_Creak_03
+					Onager_Creak_04
+					Onager_Creak_05
+					Onager_Creak_06
+				end
+
+;##### Ram
+
+	class ram
+		season summer, winter
+			terrain dirt, forest_dense, grass_long, grass_short, ice, mud, mud_road, rock, sand, scrub_dense, snow, stone_road, swamp, water, wood
+				event
+					folder data/sounds/SFX/Individual/Movement
+					ballista_Creak_01
+					ballista_Creak_02
+					ballista_Creak_03
+					ballista_Creak_04
+					ballista_Creak_05
+					ballista_Creak_06
+					ballista_Creak_07
+					ballista_Creak_08
+					ballista_Creak_08
+					Onager_Creak_01
+					Onager_Creak_02
+					Onager_Creak_03
+					Onager_Creak_04
+					Onager_Creak_05
+					Onager_Creak_06
+				end
+
+;##### Tower
+
+	class tower
+		season summer, winter
+			terrain dirt, forest_dense, grass_long, grass_short, ice, mud, mud_road, rock, sand, scrub_dense, snow, stone_road, swamp, water, wood
+				event
+					folder data/sounds/SFX/Individual/Movement
+					Onager_Creak_01
+					Onager_Creak_02
+					Onager_Creak_03
+					Onager_Creak_04
+					Onager_Creak_05
+					Onager_Creak_06
+				end
+
+
+
+;########################################
+;##### SOUNDS - SIEGE ENGINE ALIGHT #####
+;########################################
+
+DEFAULT: 3d mindist 3 minPitch 1 maxPitch 1 priority 240 fadein 0.25 fadeout 0.5 volume 0 probability 1 distancepriority 0
+
+BANK: engine_alight
+
+;##### Ignore
+
+	class ladder
+		ignore
+
+;##### Ballista / Ram
+
+	class ballista, ram
+		event looped
+			folder data/sounds/SFX/Structure/Buildings
+			building_on_fire_med
+		end
+
+;##### Tower
+
+	class tower
+		event looped mindist 5
+			folder data/sounds/SFX/Structure/Buildings
+			building_on_fire_high
+		end

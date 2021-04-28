@@ -1,0 +1,16 @@
+ 10 elf_town_B
+ 10 settlement
+ 56 settlements/Unique_Settlements/Elf_town/elf_town_A.world
+4         number of pairs of attributes to follow 
+  7 culture
+ 17 southern_european
+
+ 11 environment
+  7 generic
+
+  7 faction
+  6 saxons
+
+  4 type
+ 10 small_town
+

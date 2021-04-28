@@ -1,0 +1,7 @@
+;###############################
+;##### SOUNDS - UNIT TAUNT #####
+;###############################
+
+DEFAULT: 3d mindist 5 priority 170 fadein 1 fadeout 3 minpitch .8 maxpitch 1.0 volume -15 probability 1 distancepriority -1 randomdelay 1  effect_level .5
+
+BANK: unit_taunt

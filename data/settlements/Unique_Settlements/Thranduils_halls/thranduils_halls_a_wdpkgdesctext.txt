@@ -1,0 +1,16 @@
+ 18 thranduils_halls_A
+ 10 settlement
+ 72 settlements/Unique_Settlements/Thranduils_halls/thranduils_halls_A.world
+4         number of pairs of attributes to follow 
+  7 culture
+ 17 southern_european
+
+ 11 environment
+  7 generic
+
+  7 faction
+  6 russia
+
+  4 type
+ 10 large_city
+

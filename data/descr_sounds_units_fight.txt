@@ -1,0 +1,49 @@
+;###############################
+;##### SOUNDS - UNIT FIGHT #####
+;###############################
+
+DEFAULT: 3d mindist 10 minPitch .9 maxPitch 1.1 fadein 2 fadeout 2 volume 0 probability 1 priority 220 distancepriority 0 randomdelay 0  effect_level .25
+
+BANK: unit_fighting
+
+	unit cavalry heavy, light, missile, skirmish, spearmen
+		event lod 3 
+			folder data/sounds/SFX/Group/Melee
+			Group_Fight_Small	
+		end
+		event lod 40 
+			folder data/sounds/SFX/Group/Melee
+			Group_Fight_Medium	
+		end
+		event lod 80 
+			folder data/sounds/SFX/Group/Melee
+			Group_Fight_Large	
+		end
+
+	unit infantry heavy, light, missile, skirmish, spearmen
+		event lod 3 
+			folder data/sounds/SFX/Group/Melee
+			Group_Fight_Small	
+		end
+		event lod 40 
+			folder data/sounds/SFX/Group/Melee
+			Group_Fight_Medium	
+		end
+		event lod 80 
+			folder data/sounds/SFX/Group/Melee
+			Group_Fight_Large	
+		end
+
+	unit siege heavy, light, missile, skirmish, spearmen
+		event lod 3 
+			folder data/sounds/SFX/Group/Melee
+			Group_Fight_Small	
+		end
+		event lod 40 
+			folder data/sounds/SFX/Group/Melee
+			Group_Fight_Medium	
+		end
+		event lod 80 
+			folder data/sounds/SFX/Group/Melee
+			Group_Fight_Large	
+		end

@@ -1,0 +1,17 @@
+Divide and Conquer v4.6:
+Fixes:
+- The game will no longer crash with random AI sieges or after player victories
+- The Northern Dúnedain Mercenary Beacon system now works as intended (Note that Khand, Harad, AA and Rhun are recruited out of the barracks again now)
+- High Elven generals will no longer spawn in the ocean with no bodyguard
+- the crashing mission rewards removed
+- removed barrow wight ancillary triggers which cause a crash when a garrison starves out during a siege due to using the I_BattnemyArmyNumberOfAttribute condition
+- made it so the Nazgul get killed after Mordor gets killed when the ring gets destroyed to avoid a crash
+- removed triggers relating to non-existent buildings in descr_faction_standing (cathedral, huge_cathedral etc)
+- changed Dalian Woodsmen (do not exist in the mod anymore) to Northmen Archers in a guild trigger
+- fixed the replenishment rate for Loke-Scion Rim from 0.8 to 0.08
+- fixed the AOR restriction on the Athala rangers as they used a string of 'and' instead of 'or' and thus would never be true in some regions
+- added missing event pics by using existing similar pics
+- added the missing normans entry for Dunedain Blademasters in the bmdb
+- slightly changed a few lines in the ring script to fix the issue with the ring in Hobbiton
+- added the missing monitors for the shire garrison buildings so the garrison buildings work there
+- amended the pools in descr_mercenaries so there are no double pools which caused the mercenary system to not work correctly

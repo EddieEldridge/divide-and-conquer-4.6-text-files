@@ -1,0 +1,149 @@
+;#############################
+;##### SOUNDS - SETTINGS #####
+;#############################
+
+required_samples_cutoff 2
+rolloff_factor 1
+doppler_factor 0.5
+stratmap_rolloff_factor 3
+volume_cutoff .01
+priority_floor -1000.0
+pitch_offset .2
+ducking_on 1
+ducking_fade_in 1
+ducking_fade_out 1
+ducking_amount -40
+cam_cull_radius_unit 100.0f;
+cam_cull_radius_engine 2000.0f;
+
+
+
+;#################################
+;##### SOUNDS - ENVIRONMENTS #####
+;#################################
+
+EAX:
+	global
+        parameter "Mute at maximum" 0
+
+    terrain grass_short, grass_long, scrub_dense
+        room        ENVIRONMENT_GENERIC
+
+    terrain sand, rock
+        room        ENVIRONMENT_GENERIC
+
+    terrain forest_dense
+        room        ENVIRONMENT_GENERIC
+
+    terrain swamp
+        room        ENVIRONMENT_GENERIC
+
+    terrain mud
+        room        ENVIRONMENT_GENERIC
+
+    terrain mud_road
+        room        ENVIRONMENT_GENERIC
+
+    terrain stone_road
+        room        ENVIRONMENT_GENERIC
+
+    terrain water
+        room        ENVIRONMENT_GENERIC
+
+    terrain ice
+        room        ENVIRONMENT_GENERIC
+
+    terrain snow
+        room        ENVIRONMENT_GENERIC
+
+    terrain wood
+        room        ENVIRONMENT_GENERIC
+
+    terrain dirt
+        room        ENVIRONMENT_GENERIC
+
+    city
+    level town, large_town, city, large_city, huge_city              ; village, 
+    provider "Creative Labs EAX 4 (TM)", "Creative Labs EAX 3 (TM)", "Creative Labs EAX 2 (TM)"
+        room        ENVIRONMENT_ALLEY
+        parameter   "EAX effect volume"     .8
+    
+    provider "Miles Fast 2D Positional Audio"
+        room        ENVIRONMENT_ALLEY
+
+        
+ ;;;;;  small forest
+   forest
+    climates mediterranean, tropical, semi_arid, steppe, highland
+    provider "Miles Fast 2D Positional Audio"
+        room        ENVIRONMENT_FOREST
+        parameter   "EAX effect volume"     .2
+    provider "Creative Labs EAX 4 (TM)", "Creative Labs EAX 3 (TM)", "Creative Labs EAX 2 (TM)"
+        room        ENVIRONMENT_FOREST
+        parameter   "EAX effect volume"     .2
+  
+          
+;;;;  large  forest 
+   forest
+    climates unused2, temperate_deciduous_forest, temperate_coniferous_forest, alpine
+    provider "Miles Fast 2D Positional Audio"
+        room        ENVIRONMENT_FOREST
+        parameter   "EAX effect volume"     .6
+    provider "Creative Labs EAX 4 (TM)", "Creative Labs EAX 3 (TM)", "Creative Labs EAX 2 (TM)"
+        room        ENVIRONMENT_FOREST
+        parameter   "EAX effect volume"     .6
+
+    frontend
+        master_room ENVIRONMENT_FOREST
+        parameter   "EAX effect volume"     .6
+    
+    campaign
+        master_room ENVIRONMENT_FOREST
+        parameter   "EAX effect volume"     .6
+        end
+
+
+
+;################################
+;##### SOUNDS - MUSIC TYPES #####
+;################################
+
+music_types_enum northern_european eastern_european southern_european middle_eastern mesoamerican greek gondor milan khand russia normans byzantium scotland angmar anduin
+
+
+
+;###############################
+;##### SOUNDS - REFERENCES #####
+;###############################
+
+include descr_sounds_accents.txt
+include descr_sounds_advice.txt
+include descr_sounds_battle_events.txt
+include descr_sounds_engine.txt
+include descr_sounds_enviro.txt
+include descr_sounds_events.txt
+include descr_sounds_generic.txt
+include descr_sounds_interface.txt
+include descr_sounds_music.txt
+include descr_sounds_narration.txt
+include descr_sounds_prebattle.txt
+include descr_sounds_stratmap.txt
+include descr_sounds_stratmap_voice.txt
+include descr_sounds_structures.txt
+include descr_sounds_units.txt
+include descr_sounds_units_ambient.txt
+include descr_sounds_units_anims.txt
+include descr_sounds_units_celebrate.txt
+include descr_sounds_units_charge.txt
+include descr_sounds_units_collide.txt
+include descr_sounds_units_confirm.txt
+include descr_sounds_units_fight.txt
+include descr_sounds_units_fire.txt
+include descr_sounds_units_idle.txt
+include descr_sounds_units_march.txt
+include descr_sounds_units_reform.txt
+include descr_sounds_units_retreat.txt
+include descr_sounds_units_run.txt
+include descr_sounds_units_taunt.txt
+include descr_sounds_units_voice.txt
+include descr_sounds_weapons.txt

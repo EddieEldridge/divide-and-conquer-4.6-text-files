@@ -1,0 +1,11 @@
+#====================================================================================================
+#		The main files path terrain, pathfinding, vegetation, animinstance
+#====================================================================================================
+settlements/techtree/barbarian/barbarian_warrior_hold/barbarian_warrior_hold.worldTerrain
+settlements/techtree/barbarian/barbarian_warrior_hold/barbarian_warrior_hold.worldVegetation
+settlements/techtree/barbarian/barbarian_warrior_hold/barbarian_warrior_hold.animInstances
+#====================================================================================================
+#		Animations links : matches with <anim> properties written in each objects
+#====================================================================================================
+#====================================================================================================
+#		Debug AnimInstance database : each anim applied to a list of objects

@@ -1,0 +1,12 @@
+#====================================================================================================
+#		The main files path terrain, pathfinding, vegetation, animinstance
+#====================================================================================================
+settlements/North_European/ambient_settlements/watch_tower_A/NE_watchtower_a.worldTerrain
+settlements/North_European/ambient_settlements/watch_tower_A/NE_watchtower_a.worldPathfinding
+settlements/North_European/ambient_settlements/watch_tower_A/NE_watchtower_a.worldVegetation
+settlements/North_European/ambient_settlements/watch_tower_A/NE_watchtower_a.animInstances
+#====================================================================================================
+#		Animations links : matches with <anim> properties written in each objects
+#====================================================================================================
+#====================================================================================================
+#		Debug AnimInstance database : each anim applied to a list of objects

@@ -1,0 +1,34 @@
+;This file is generated from the Spreadsheet MTW2-Advice.xls
+;Please modify the spreadsheet and re-xport the data, rather than editing this file directly
+
+;===============================================================
+;== ADVICE THREAD DATA STARTS HERE ==
+;===============================================================
+;------------------------------------------
+;AdviceThread BackgroundScriptThread
+;   GameArea Battle
+;
+;    Item Background_Script_Text_01
+;        Uninhibitable
+;        Verbosity  0
+;        Priority  6
+;        Threshold  1
+;        MaxRepeats  0
+;        RepeatInterval  1
+;        Attitude Normal
+;        Presentation Default
+;        Title Background_Script_Title
+;		On_display scripts\show_me\background_script.txt
+;        Text Background_Script_Text1
+
+;===============================================================
+;== ADVICE TRIGGER DATA STARTS HERE ==
+;===============================================================
+;------------------------------------------
+;Trigger background_script_trigger_1
+;   WhenToTest BattleDeploymentPhaseCommenced
+;
+;    Condition I_EventCounter DifficultyLevel < 1
+;
+;		  AdviceThread BackgroundScriptThread  1
+

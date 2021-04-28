@@ -1,0 +1,52 @@
+;################################
+;##### SOUNDS - UNIT CHARGE #####
+;################################
+
+ DEFAULT: 3d mindist 10 minPitch .8 maxPitch 1.1 fadein 0 fadeout 1 volume -10 priority 170 probability 1 distancepriority -1 effect_level .25 delay 2.0 randomdelay .5 pref SFX
+ 
+ BANK: unit_charge
+
+	unit cavalry heavy, light, missile, skirmish, spearmen
+		event lod 5
+			folder data/sounds/SFX/group/Infantry
+			infantry_group_charge_small_01
+		end
+		event lod 10
+			folder data/sounds/SFX/group/Infantry
+			infantry_group_charge_medium_01
+		end
+		event lod 30
+			folder data/sounds/SFX/group/Infantry
+			infantry_group_charge_large_01
+			infantry_group_charge_large_02
+		end
+
+	unit infantry heavy, light, missile, skirmish, spearmen
+		event lod 5
+			folder data/sounds/SFX/group/Infantry
+			infantry_group_charge_small_01
+		end
+		event lod 10
+			folder data/sounds/SFX/group/Infantry
+			infantry_group_charge_medium_01
+		end
+		event lod 30
+			folder data/sounds/SFX/group/Infantry
+			infantry_group_charge_large_01
+			infantry_group_charge_large_02
+		end
+
+	unit siege heavy, light, missile, skirmish, spearmen
+		event lod 5
+			folder data/sounds/SFX/group/Infantry
+			infantry_group_charge_small_01
+		end
+		event lod 10
+			folder data/sounds/SFX/group/Infantry
+			infantry_group_charge_medium_01
+		end
+		event lod 30
+			folder data/sounds/SFX/group/Infantry
+			infantry_group_charge_large_01
+			infantry_group_charge_large_02
+		end

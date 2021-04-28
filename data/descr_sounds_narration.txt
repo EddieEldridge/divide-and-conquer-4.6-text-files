@@ -1,0 +1,12 @@
+;#####################################
+;##### SOUNDS - NARRATION SPEECH #####
+;#####################################
+
+DEFAULT: 1d streamed priority 500 volume -20 fadein 0 fadeout 2.5 randomdelay 0 rndvolume 0 pan .5 dry_level 1.0 wet_level 0 streamed pref SPEECH probability 1 ducking
+
+event Test streamed
+	folder data/sounds/SFX/Interface/Frontend
+	tick_on.mp3
+end
+
+source export_descr_sounds_narration.txt

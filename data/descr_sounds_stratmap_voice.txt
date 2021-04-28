@@ -1,0 +1,10 @@
+;####################################
+;##### SOUNDS - STRATMAP VOICES #####
+;####################################
+
+DEFAULT: 1D streamed volume -25 probability 1 fadein 0 fadeout 0.5 minPitch .9 maxPitch 1 delay .2 priority 500 pref SPEECH
+
+chivalry_level 4
+dread_level -4
+
+source export_descr_sounds_stratmap_voice.txt

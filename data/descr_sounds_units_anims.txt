@@ -1,0 +1,201 @@
+;####################################
+;##### SOUNDS - UNIT ANIMATIONS #####
+;####################################
+
+DEFAULT: 3D mindist 2 minPitch .9 maxPitch 1.1 volume 0 fadein 0 fadeout 0 priority 0 distancepriority -2 randomdelay 0  effect_level .25 probability 1 probradius 7
+
+
+
+;###############################
+;##### SOUNDS - UNIT FALLS #####
+;###############################
+
+DEFAULT: 3D distancepriority -2 priority 0 probability 1 probradius 7 mindist 1 minPitch .9 maxPitch 1.1 volume 0 fadein 0 fadeout 0
+
+BANK: fall
+
+	season summer, winter
+		terrain mud, mud_road, sand, stone_road, swamp
+			event priority 140 volume -20 mindist 1
+				folder data/sounds/SFX/Individual/Falls/Infantry
+				Fall_Infantry_Grass_03
+				Fall_Infantry_Grass_04
+				Fall_Infantry_Grass_05
+				Fall_Infantry_Grass_06
+				Fall_Infantry_Grass_07
+			end
+		terrain water
+			event priority 140 volume -10 mindist 1
+				folder data/sounds/SFX/Individual/Falls/Infantry
+				Fall_Infantry_Water_02
+				Fall_Infantry_Water_03
+				Fall_Infantry_Water_10
+			end
+	season summer
+		terrain dirt, forest_dense, grass_long, grass_short, ice, rock, scrub_dense, wood
+			event priority 140 volume -20 mindist 1
+				folder data/sounds/SFX/Individual/Falls/Infantry
+				Fall_Infantry_Grass_03
+				Fall_Infantry_Grass_04
+				Fall_Infantry_Grass_05
+				Fall_Infantry_Grass_06
+				Fall_Infantry_Grass_07
+			end
+	season winter
+		climates alpine, highland, mediterranean, semi_arid, temperate_coniferous_forest, temperate_deciduous_forest, tropical
+			terrain dirt, ice, forest_dense, grass_long, grass_short, rock, scrub_dense, snow, wood
+				event priority 140 volume -30 mindist 1
+					folder data/sounds/SFX/Individual/Falls/Infantry
+					Fall_Infantry_Snow_01
+					Fall_Infantry_Snow_02
+					Fall_Infantry_Snow_03
+				end
+
+
+
+;#################################
+;##### SOUNDS - ANIMAL FALLS #####
+;#################################
+
+DEFAULT: 3D distancepriority -2 priority 0 probability 1 probradius 7 mindist 1 minPitch .9 maxPitch 1.1 volume 0 fadein 0 fadeout 0
+
+BANK: animal_fall
+
+	mount barded horse, barded horse2, barded horse3, barded horse4, barded horse5, barded horse6, barded horse7, eastern armoured horse, eastern horse, elven horse, eorlingas horse, gondor horse, heavy horse, khand armoured horse, mailed horse2, mailed horse3, mailed horse4, merchant horse, nazgul horse, northern heavy horse, simple horse, swan guard horse
+		terrain dirt, forest_dense, grass_long, grass_short, ice, mud, mud_road, rock, sand, scrub_dense, snow, stone_road, swamp, wood
+			event mindist 4 priority 200 distancepriority 0 volume -5
+				folder data/sounds/SFX/Individual/Falls/Horse
+				Fall_horse_grass_01
+				Fall_horse_grass_02
+				Fall_horse_grass_05
+				folder data/sounds/SFX/Individual/Falls/Camel
+				Fall_camel_grass_01
+				Fall_camel_grass_02
+				Fall_camel_grass_03
+			end
+		terrain water
+			event mindist 4 priority 200 distancepriority 0 volume -5
+				folder data/sounds/SFX/Individual/Falls/Camel
+				Fall_camel_water_01
+				Fall_camel_water_02
+				Fall_camel_water_03
+			end
+
+	mount creature_balrog, creature_ent, creature_sauron, elephant_cannon, gorgoroth_beast
+		terrain dirt, forest_dense, grass_long, grass_short, ice, mud, mud_road, rock, sand, scrub_dense, snow, stone_road, swamp, wood
+			event mindist 12 priority 200 distancepriority 0 volume 0
+				folder data/sounds/SFX/Individual/Falls/Elephant
+				Fall_elephant_grass_01a
+				Fall_elephant_grass_02a
+				Fall_elephant_grass_03a
+				Fall_elephant_grass_04a
+			end
+		terrain water
+			event mindist 12 priority 200 distancepriority 0 volume 0
+				folder data/sounds/SFX/Individual/Falls/Elephant
+				Fall_elephant_water_01
+				Fall_elephant_water_02
+				Fall_elephant_water_03
+				Fall_elephant_water_04
+			end
+
+	mount mount_light_wolf, southern_camel, warg_camel
+		terrain dirt, forest_dense, grass_long, grass_short, ice, mud, mud_road, rock, sand, scrub_dense, snow, stone_road, swamp, wood
+			event mindist 4 priority 200 distancepriority 0 volume 0
+				folder data/sounds/SFX/Individual/Falls/Camel
+				Fall_camel_grass_01
+				Fall_camel_grass_02
+				Fall_camel_grass_03
+				folder data/sounds/SFX/Individual/Falls/Horse
+				Fall_horse_grass_01
+				Fall_horse_grass_02
+				Fall_horse_grass_05
+			end
+		terrain water
+			event mindist 4 priority 200 distancepriority 0 volume 0
+				folder data/sounds/SFX/Individual/Falls/Camel
+				Fall_camel_water_01
+				Fall_camel_water_02
+				Fall_camel_water_03
+			end
+
+
+
+;##############################
+;##### SOUNDS - WAR HORNS #####
+;##############################
+
+DEFAULT: mindist 40 maxdist 1100 priority 240 volume 0 probability 1 minPitch 1 maxPitch 1 probability 1 randomdelay 0 distancepriority 0 
+
+BANK: war_horn
+
+	culture eastern_european
+		event
+			folder data/sounds/SFX/Individual/War_Horns
+			horn_orcs1
+			horn_orcs2
+			horn_orcs3
+		end
+	culture gondor
+		event
+			folder data/sounds/SFX/Individual/War_Horns
+			horn_gondor1
+			horn_gondor2
+			horn_gondor3
+			horn_gondor4
+			horn_gondor5
+		end
+	culture greek
+		event
+			folder data/sounds/SFX/Individual/War_Horns
+			horn_elves1
+			horn_elves2
+		end
+	culture mesoamerican
+		event
+			folder data/sounds/SFX/Individual/War_Horns
+			horn_middlemen1
+			horn_middlemen2
+			horn_middlemen3
+			horn_middlemen4
+			horn_middlemen5
+			horn_middlemen6
+			horn_middlemen7
+			horn_middlemen8
+			horn_middlemen9
+		end
+	culture middle_eastern
+		event
+			folder data/sounds/SFX/Individual/War_Horns
+			horn_wickedmen1
+			horn_wickedmen2
+			horn_wickedmen3
+			horn_wickedmen4
+			horn_wickedmen5
+			horn_wickedmen6
+			horn_wickedmen7
+			horn_wickedmen8
+			horn_wickedmen9
+		end
+	culture northern_european
+		event
+			folder data/sounds/SFX/Individual/War_Horns
+			horn_northmen1
+			horn_northmen2
+			horn_northmen3
+			horn_northmen4
+			horn_northmen5
+			horn_northmen6
+			horn_northmen7
+			horn_northmen8
+			horn_northmen9
+			horn_northmen10
+			horn_northmen11
+		end
+	culture southern_european
+		event
+			folder data/sounds/SFX/Individual/War_Horns
+			horn_dwarves1
+			horn_dwarves2
+			horn_dwarves3
+		end

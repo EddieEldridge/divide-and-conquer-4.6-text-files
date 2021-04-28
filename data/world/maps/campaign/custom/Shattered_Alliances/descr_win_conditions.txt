@@ -1,0 +1,181 @@
+scripts
+hold_regions
+take_regions 180
+short_campaign hold_regions
+take_regions 180
+
+sicily
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+denmark 
+hold_regions
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+milan
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+normans
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+turks
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+scotland
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+timurids
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+byzantium
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+moors
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+hungary
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+norway
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+saxons
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+ireland
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+mongols
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+teutonic_order
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+venice
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+england
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+poland
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+france
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+aztecs
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+hre
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+portugal
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+spain
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+russia
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+khand
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+gundabad
+hold_regions  
+take_regions 50
+short_campaign hold_regions 
+take_regions 30
+
+papal_states
+hold_regions
+take_regions 180
+short_campaign hold_regions
+take_regions 180
+
+united
+hold_regions Anorien_Province Angle_Province Anfalas_Province Brethil_Province Cair_Andros_Province Lamedon_Province Anorien_Fields_Province Lossarnach_Province Erech_Province Ethring_Province North_Ithilien_Province Andrast_Province East_Osgiliath_Province West_Osgiliath_Province Ithilien_Province Lebennin_Province Morgul_Vale_Province Pinnath_Gelin_Province Andrast_Cape_Province Weather_Hills_Province Angsul_Province Lake_Evendim_Province Arthedain_Province Arthedain_Rammas_Province Far_Arthedain_Province Carn_Dum_Province 
+take_regions 100
+outlive aztecs england france poland portugal
+short_campaign hold_regions Anorien_Province Angle_Province 
+take_regions 100
+outlive aztecs england france poland portugal
+
+slave
+hold_regions
+take_regions 180
+short_campaign hold_regions
+take_regions 180

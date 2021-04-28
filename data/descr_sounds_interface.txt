@@ -1,0 +1,111 @@
+;####################################
+;##### SOUNDS - INTERFACE START #####
+;####################################
+
+DEFAULT: 1D priority 250 volume -30 fadein 0 fadeout 0 delay 0 randomdelay 0 rndvolume 0 pan .5 dry_level 1 wet_level 1  minpitch 1.0 maxpitch 1.0 pref INTERFACE
+
+BANK: cursor_click
+
+	; Battlemap
+
+	type battle		
+		mode attack
+			event volume -25 streamed
+				folder data/sounds/SFX/interface/battlefield
+				attack.mp3
+			end
+			double
+			event streamed
+				folder data/sounds/SFX/interface/battlefield
+				run.mp3 volume -45
+			end
+		mode attack_range
+			event volume -25 streamed
+				folder data/sounds/SFX/interface/battlefield
+				attack.mp3 
+			end
+			double
+			event streamed
+				folder data/sounds/SFX/interface/battlefield
+				run.mp3 volume -45
+			end
+		mode attack_thrown
+			event volume -25 streamed
+				folder data/sounds/SFX/interface/battlefield
+				attack.mp3
+			end
+			double
+			event streamed
+				folder data/sounds/SFX/interface/battlefield
+				run.mp3 volume -45
+			end	
+		mode attack_siege
+			event streamed
+				folder data/sounds/SFX/interface/battlefield
+				siege_attack.mp3
+			end				
+		mode move, move_in_range, move_out_of_range
+			event volume -40 minpitch 1 maxpitch 1 dry_level .9 wet_level 1
+				folder data/sounds/SFX/interface/battlefield
+				move
+			end
+			double
+			event streamed
+				folder data/sounds/SFX/interface/battlefield
+				run.mp3 volume -45
+			end
+		mode attack_range_out_of_range
+			event volume -25 dry_level 0.9 wet_level 1 streamed
+				folder data/sounds/SFX/interface/battlefield
+				attack_out_of_range_01.mp3
+			end
+		mode attack_thrown_out_of_range streamed
+			event volume -25 dry_level 0.9 wet_level 1 streamed
+				folder data/sounds/SFX/interface/battlefield
+				attack_out_of_range_01.mp3
+			end
+		mode attack_siege_out_of_range 
+			event volume -25 dry_level 0.9 wet_level 1 streamed
+				folder data/sounds/SFX/interface/battlefield
+				attack_out_of_range_01.mp3
+			end
+		mode pickup_equipment
+			event streamed
+				folder data/sounds/SFX/interface/battlefield
+				grab_siege_06.mp3
+			end		
+		mode enter
+			event streamed
+				folder data/sounds/SFX/interface/battlefield
+				grab_siege_06.mp3
+			end				
+
+	; Stratmap
+		
+	type strat_v2
+		mode attack
+			event volume -40 streamed
+				folder data/sounds/SFX/interface/battlefield
+				attack.mp3
+			end
+		mode move
+			event  volume -40 dry_level 0.9 wet_level 1
+				folder data/sounds/SFX/interface/battlefield
+				move
+			end
+		mode exchange
+			event  volume -40 dry_level 0.9 wet_level 1
+				folder data/sounds/SFX/interface/battlefield
+				move
+			end			
+		mode enter_settlement
+			event  volume -40 dry_level 0.9 wet_level 1
+				folder data/sounds/SFX/interface/battlefield
+				move
+			end				
+	
+;#################################
+;##### SOUNDS - INTERFACE END #####
+;#################################
+
+DEFAULT: 1d volume -10

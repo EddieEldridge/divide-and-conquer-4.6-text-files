@@ -1,0 +1,22 @@
+ 16 elf_large_town_A
+ 10 settlement
+ 68 settlements/Unique_Settlements/Elf_large_town/elf_large_town_A.world
+6         number of pairs of attributes to follow 
+  7 culture
+ 17 southern_european
+
+ 11 environment
+  7 generic
+
+  7 faction
+  7 mongols
+
+ 18 fortificationlevel
+  4 none
+
+  4 type
+ 10 large_town
+
+  7 variant
+  4 none
+

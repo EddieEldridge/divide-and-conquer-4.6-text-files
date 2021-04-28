@@ -1,0 +1,10 @@
+catholic
+dwarven
+islam
+northmen
+heretic
+elven
+orthodox
+nomadic
+wildmen
+kings

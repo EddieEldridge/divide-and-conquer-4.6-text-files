@@ -1,0 +1,22 @@
+ 11 annuminas_a
+ 10 settlement
+ 58 settlements/Unique_Settlements/Annuminas/annuminas_a.world
+6         number of pairs of attributes to follow 
+  7 culture
+ 17 northern_european
+
+ 11 environment
+  7 generic
+
+  7 faction
+  5 slave
+
+ 18 fortificationlevel
+  4 none
+
+  4 type
+ 10 large_city
+
+  7 variant
+  4 none
+

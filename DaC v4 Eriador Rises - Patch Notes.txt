@@ -1,0 +1,399 @@
+Divide and Conquer v4: Eriador Rises
+
+High Elves (New faction - Imladris and Lindon merged)
+Regions: Imladris, Mithlond, Forlond, Harlond
+Starting Generals: Elrond (Imladris), Cirdan (Mithlond), Gildor Inglorien (travelling, currently passing through the Sarn Ford)
+
+Recruitment:-
+Teleri Barracks: Only available in regions that feature bodies of water; lakes, rivers or the ocean. You will only be able to recruit Teleri units while you hold Mithlond.
+Noldor Barracks: Only available in Mountain or Grassland regions. Imladris begins with one however Ost-in-Edhil must be re-captured to build elsewhere. You will only be able to recruit Noldor units while you hold Imladris.
+Dunedain Outpost: Several specific locations in Eriador
+
+Roster:
+Bodyguard:-
+Calaquendi Lords (Sword & Shield)
+Gil-galad's Company (2H Sword & Bow) - Elrond only
+
+Dunedain Outpost:-
+T1 - Dunedain Wardens (Spear & Shield) 
+T1 - Dunedain Scouts (Archer Cav) 
+
+Teleri Barracks Level 1:-
+T1 - Lindar Guards (Sword & Shield)
+T1 - Lindar Bowmen (Archers)
+T1 - Lindar Mariners (Javelins & Dual Weapons) (coastal - from the Port building line)
+T1 - Lindon Longspears (Pikes) (Mithlond, Forlond, Harlond)
+
+Noldor Barracks Level 1:-
+T2 - Amanyar Riders (Spear Cav)
+T2 - Amanyar Swordmasters (2H Sword)
+T2 - Amanyar Rangers (Archer Cav)
+
+--- BARRACKS EVENT ---
+
+Teleri Barracks Level 2:-
+T2 - Sindar Spearmen (Spear & Shield)
+T2 - Sindar Archers (Archers)
+T2 - Sindar Axemen (Axe & Shield)
+
+Noldor Barracks Level 2:-
+T3 - Noldor Archers (Archers)
+T3 - Noldor Defenders (Spear & Shield)
+T3 - Noldor Veterans (2h Sword)
+
+Unique Buildings:-
+T4 - Mithlond Nobles (Sword & Shield) (Mithlond)
+T4 - Eregion Smiths (Hammer & Shield) (Eregion)
+T4 - Eldarinwe Tirno (Pikes) (Imladris only until Gwaith-i-Mirdain rebuilt then everywhere)
+T4 - Eldarinwe Roquen (Lance Cav) (Imladris only until Gwaith-i-Mirdain rebuilt then everywhere)
+
+- New Event Script: "Lords of the Eldar"
+-- Though you begin with only three leaders several more powerful figures will join you after various actions
+-- After Turn 15 you will be able to send a Diplomat to the Northern Dunedain to recall Elrond's twin sons, Elladan and Elrohir. They will join you with a bodyguard of Dunedain Bodyguard each.
+-- Rebuilding the Gwaith-I-Mirdain in Ost-in-Edhil will cause Dornonoston to join you with a bodyguard of his fellow Smiths of Eregion.
+-- The legendary Elf-lord Glorfindel will join you when either you have captured 12 regions or Angmar has been reduced to 2, with a bodyguard of Eldarinwe Roquen cavalry.
+
+
+Northern Dunedain
+- New unit: Arthedain Footmen - Mace and shield early game infantry available from Arthedain Regions.
+- New unit: Sons of Numenor - Elite halberdiers recruited from the rebuilt House of Kings in Annuminas. Available to both Gondor and Northern Dunedain.
+- Dunedain Men-at-Arms re-named to 'Dunedain Armsmen' and now wear the 'Ranger-ish' mail, cloak and helmet of the Cavalry and Blademasters. They upgrade to their prior appearance at Armour Lv5.
+- Dunedain Blademasters visual upgrade added. Full Arnorian plate armour at Armour Lv5.
+- Dunedain Cavalry visual upgrade added. Full Arnorian plate armour at Armour Lv5.
+- Grey Company visual upgraded added. Full Arnorian plate armour at Armour Lv5.
+- Dunedain Steelbowmen visual upgrade added. **Credit to 'Theodron' of the Blood of Numenor mod**
+- Dunedain Bodyguard visual upgrade added. **Credit to 'Theodron' of the Blood of Numenor mod**
+- Sworn Horsemen now ride the 'Gondor Horse'
+- New look for Dunedain Rangers, Dunedain Wardens, Dunedain Scouts and Grey Company. **Credit to "Louis Lux" for base model and texture of his new Dunedain Ranger unit model**
+- All units, both inside and outside of Eriador, are now recruited from the same Dunedain Encampment line. There's no longer a seperate Militia Barracks line.
+- The Level 3 Dunedain Barracks now allows you to recruit Dunedain outside of Eriador. Albeit with a very high Dunedain Culture requirement.
+- Dunedain Steelbowmen, Arthedain Knights and Arthedain Royal Guard now require the Level 3 Barracks.
+- You can now only recruit Gondor and Dol Amroth units if you are not at war with them
+- After Angmar is defeated you can recruit all Rhudaur units from your Barracks line in Rhudaur regions
+- New event message after Angmar is defeated showing the Rhudaur Hillmen once again swearing fealty to the Dunedain
+
+- "Beacon of Hope" unit recruitment re-work
+-- Northern Dunedain now recruit Beacon of Hope units from other factions as Mercenaries in the faction's heartlands rather than via capturing settlements and recruiting via building, except for Gondor and Dol Amroth, however many have requirements:
+-- Cannot be at war with faction: Bree, Rohan, Dale, Dorwinion and Anduin
+-- Faction must be defeated: Ar-Adunaim, Harad and Rhun
+-- No restriction, always availabe to recruit: Enedwaith, Dunland and Khand
+
+
+Ered Luin
+- Visual tweaks to Ered Luin Scouts, Militia and Pikemen
+- Visual tweaks to Longbeard Swordsmen, Phalanx and Crossbows
+- Obsidian Guard re-named to 'Grimborn Reavers' and are now recruited from the Level 3 Barracks, choice depending.
+
+- New Event Script: "A Gift"
+-- Some time into the game a messenger from Mordor will arrive with an offer: The return of the Dwarven Rings in exchange for your non-involvement in their forces' and allies' wars against the peoples of Eriador.
+-- Refusal will gain you the support of the Elves of Lindon in the form of their maritime expertise, plus the elite 'Azaghal's Tomb Protectors' unit.
+-- Accepting the offer will set you on to a road with conflict with the other peoples of Eriador, and possibly even the other Dwarves, as the Dwarves slowly become consumed with greed and paranoia. But you will get the support of the emergant "Grimborn" Dwarves in the form of the powerful 'Grimborn Reavers' unit
+and a unique General with this unit as his bodyguard. It will also allow you to pursue the "Reclaiming Dwarven Relics" event for rewards of gold and unique Ancillary items.
+-- The AI has a 50-50 chance to make either decision. But attacks on their homelands will not happen for the AI.
+
+- New Event Script: "Reclaiming Dwarven Relics"
+-- Optional. Up to the player to pursue it
+-- Requires accepting the rings
+-- After getting the rings, their power slowly starts increasing the greed in the dwarves. The clans of old Belegost and Nogrod kingdoms are rising in power. After thousands of years of failing to restore the old splendour of their now ruined cities, getting no help from other dwarven clans, the arrival of Erebor refugees (mainly Longbeards) who made new home in Thorins Halls only increased resentment towards them.
+But now, with the arrival of Grinfarn and his followers, the Firebeards and Broadbeams are seizing back the power. The rings are driving them forward to remake the riches and fame of old ruined Kingdoms. Even though it has been over six thousand years, some Belegost or Nogrod made dwarven relics of first age still exist today and Dwarves of Ered Luin want them back in their possession.
+-- Send a diplomat to the Dunedain and their leader Aragorn, who reside in Fennas Drunin and demand the broken sword Narsil (made by dwarven smith Telchar in the First Age), and to Rohan where we should demand the return of the silver Horn of the Mark currently owned by Theoden (made by descendant of dwarven smiths of Belegost in the grey mountains, later stolen by Scatha the dragon and after its death, by Fram). Should the Dunedain and the Rohirrim deny our request, we should take them by force.
+-- When Aragorn and Theoden die (how it comes to that is up to the player) send a spy to Imladris, where Aragorn will be buried, to steal the Narsil pieces, and to Edoras where Theoden will be buried and steal the horn.
+-- Dwarves also look to the west, were in the sea lie western isles. On the Isle of Tol Morwen lays the grave of Turin and within it buried the great Dragon-helm of Dor-lómin (made by dwarven smith Telchar in the First Age). Hire a ship and send a spy to the isle of Tol Morwen to excavate the helm and bring it back to Blue mountains
+
+
+(Bonus) Ar-Adunaim
+- Almost all Ar-Adunaim units now have a new appearance. **Credit to 'Theodron' of the Blood of Numenor mod's Numenor and Kingdom of Belegaer units**
+- Rozadan Crossbowmen have been replaced by 'Rozadan Bowmen'. They're archers now.
+- Beruthiel's Rangers now use crossbows and two-handed swords.
+- Azrazair Warriors have been replaced by 'Azrazair Crossbowmen'. A crossbow unit only available in coastal regions.
+- Azrazair Savages re-named to 'Azrazair Warriors'.
+- Naru n'Aru Royal Knights are now a sword and shield melee cavalry with an Attack bonus against other cavalry.
+
+
+(Bonus) Rohan
+- Rohan Riders and Eored Horse Archers re-named to 'Rohirrim' and 'Rohirrim Archers'
+- Eorling Militia and Scouts re-named to 'Peasant Militia' and 'Peasant Scouts'
+- Riddermark Skirmishers, Eored Heavy Lancers, Eored Heavy Footmen and Eored Heavy Swordsmen re-named to 'Eored Skirmishers', 'Eored Lancers', 'Eored Footmen' and 'Eored Swordsmen'
+- Riddermark Heavy Cavalry re-named to 'Riddermark Cavalry'
+- New look for Peasant Militia and Peasant Scouts
+- New look for Rohirrim, Rohirrim Archers, Eorling Axemen, Eorling Spearmen and Eorling Archers. Including visual upgrade.
+- New look for Eored Lancers, Eored Footmen and Eored Swordsmen. Including visual upgrade.
+- New look for Helmingas and Riders of the Fold
+- Guard of the Caves now have throwing axes
+
+- New Event Script: "Theoden"
+-- King Theoden starts the game locked in Edoras (technically he can move 1 tile per turn because of the roads mp bonus, but better to leave him where he is), simulating him being deceived by Grima, thus somewhat falling under the Sarumans influence. While Theoden is deceived he has a big negative effect trait. 
+-- On the 9th turn, when Gandalf arrives to "cure" Theoden, the deceived trait is removed and Theoden gets a positive trait and a new epithet, and on the 10th turn King Theoden is free to move again.
+
+
+Other Event Scripts
+- Dwarven Grudges
+-- Optional. Up to the player to pursue it
+-- This is a script for Erebor and Khazad Dum factions. It deals with reclaiming lost dwarven cities back to dwarven rule. Settlements of Gundabad, Dain's Halls, West and East Khazad-Dum (and Erebor were it to be conquered by non dwarven faction during your campaign) need to be owned by any dwarven faction (including Ered Luin) for it to be "completed".
+On the first successful completion of the objective, player is rewarded money reward (if in the future any of the cities are lost and again reconquered, money isn't rewarded). When any of mentioned cities is not under dwarven ownership, Erebor and Khazad Dum faction leaders get a trait which slightly increases unrest. When all of the mentioned cities are owned by dwarven factions, Erebor and Khazad Dum faction leaders gain trait which provides various good effects.
+
+- Rhun Dragon Relic Hunt
+-- Optional. Up to the player to pursue it
+-- This is a script for Rhun faction. Dragon Cult is gaining power among the easterlings and they want to increase their power and influence among the clans. The seek to acquire dragon related items to bolster their influence and bring more followers to their worship. Parts of Scatha's Hoard remain in the Vale of Anduin and a diplomat should be sent to Beorn's Halls to try and acquire some of these treasures, as dragons magic still lingers in the gold they touched.
+In the north where kingdom of Dale is located, the remains of Smaug are located in the Long lake. Send a diplomat to Esgaroth (Lake Town) to try and acquire some of the remains of Smaug and the jewels that were encrusted onto his scales. Or you can send an army and conquer Beorn's Halls and Esgaroth to gain the relics.
+Send a spy to Withered Heath to try and acquire a Dragon Egg, since the regions is well known to have been a breeding ground for dragons in the past. Faction leader gets a trait that tracks how many relics you have obtained, giving various effects with increasing levels. After getting scatha's atrefact, Rhun gets unique heir ancillary Scatha's Hoard. After acquiring smaugs artefact/jewels, faction leader or heir (depends who has ancillary space) gets a special Dragon Artefact Helm Ancillary. After getting all of the relics the script is complete and player is rewarded money.
+
+- Dunland Grudge
+-- Optional. Up to the player to pursue it
+-- This is a short script for Dunland. As Dunland you bare a grudge against the rohirrim, who have taken your lands in the Westfold and driven you north to the mountains. In the past King Wulf has captured Edoras and proclaimed himself King of Dunland and Rohan, but he was defeated. Dunland faction leader gets trait which has s slight unrest debuff while Edoras is not owned by Dunland. If you conquer Edoras you get money reward and faction leader gets a positive trait. Once Edoras is conquered any subsequent dunland faction leaders will have a trait, which can go negative if you lose Edoras again.
+
+- Denethor
+-- This is a script for Gondor. It simulates Denethor's descending "madness", result of year sand years of using Palantir and mind battling Sauron. The script takes 110 turns to reach final stage, but it can be quickened by various things: Losing a lot of battles, Losing Eastern Osgiliath to Mordor, Faramir and/or Boromir dying. Denethor gets Anor Stone ancillary and a trait line that tracks his progression in the madness. As the game progresses there are many events that pop up and progress it to next stage. It starts beneficial with first few levels giving positive effects.
+-- After a certain point, the effects turn into increasingly negative, the worse Denethors state becomes. In the last two stages of the script, all gondorian generals get a trait with slight negative effects. (with so many positive effects around it wont be a major difference). Denethor can be redeemed and lose the mandess trait by either destroying the ring, or capturing all of Mordor's provinces (so destryoing Mordor as a faction in both cases) and a player is rewarded with some money. Script ends if Denethor dies and any negative or positive effects are removed.
+
+
+General
+- "Shattered Alliances" Alternate Campaign.
+-- This is essentially the "Total War" submod but now bundled with DaC by default and accessed via the Alternate Campaign menu option on the main menu
+-- As before this removes all starting wars and alliances that the campaign would normally begin within
+-- In addition it cancels all event scripts that would force the player to ally or go to war with other factions. Such as those for Khand, Ered Luin, Lothlorien and Woodland Realm. You'll instead be able to build any buildings or units associated with those scripts imediately.
+
+- "Relentless": Certain units can no longer have their own attacks interrupted by incoming enemy attacks  **Credit to Jojo00182 for the animation tweaks needed to make this work**
+-- Sauron, Grey Company, Gil-galad's Company, Guard of the Hand, Skin-changers, Barrow-wights, Half Trolls, Nazg-Hai 
+-- All normal-sized Generals (the General himself not his bodyguard).
+-- Units that gained the new "Relentless" effect have all had their stats and unit sizes adjusted.
+
+- Artillery changes
+-- Artillery no longer slow armies down on the campaign map
+-- Ballista damage vs structures now 20, up from 10
+-- Catapult damage vs structures now 50, down from 110
+-- Trebuchet damage vs structures now 100, down from 120
+-- Dwarven Catapult damage vs structures now 60 and Dwarven Ballista now 25. 
+
+- Merchant agents have returned
+-- Merchants are trained from the Level 2 and 3 Merchant's Guild. Level 2 Merchant's Guild allows one Merchant to be trained and Level 3 a second.
+-- Only available to Bree, Dale, Dorwinion, Gondor, Dol Amroth, Harad, Rhun and Ar-Adunaim.
+-- Dorwinion can get an extra Merchant from the Level 2 Caras Sant Wine Depository (Northmen route only)
+-- Bree can get an extra Merchant from The Prancing Pony if they pick the Mercantile route
+
+- Horse Breeder's, Archer's and Fighter's Guilds re-worked
+-- They no longer provide experience or morale but instead speed up the replenishment rate of cavaly, foot missile units and infantry respectively as well as provide Free Upkeep for such units.
+-- At Levels 2 and 3 they will also allow a Tier 2 or Tier 3 unit to be recruited out of them (E.g. Eored Lancers and Royal Guard for Rohan from the Horse Breeder's Guild). Even before the Barracks Event.
+
+- Elven History and Dance Guilds re-worked. 
+-- They now provide an increase to Culture and Law (thus reducing Corruption in a settlement). 
+-- Furthermore the Level 2 and 3 versions apply this bonus *globally*. Reducing Corruption and increasing culture conversion in *every* settlement you own on the map.
+-- Lothlorien and Woodland Realm can obtain the Dance Guild in Forest and Grassland settlements. High Elves can obtain the History Guild in Grassland and Mountainous settlements.
+
+- The Nazgul
+-- The Mordor Nazgul are no longer all active at game start (unless the player is Gondor). Instead the movement of each is unlocked periodically after a number of turns, with the Witch-King being the last.
+-- The Nazgul, except for the Witch-King and Khamul, have new names and "origin stories" unique to DaC.
+-- As Mordor or Dol Guldur selecting one of your faction's Nazgul for the first time will bring up an event message with the Nazgul's story.
+-- **Credit to "Araner of Arnor" for Gan Altan's story. "Aetius" for Balaknar's story. "Lord of all Hamsters" for Aglarakhor's story. "Wolfeson" for Zagar's story.**
+
+- Advanced Blacksmiths
+-- Triple Boost Unique Blacksmith System: (Most factions now get a unique blacksmith in the following locations that gives a 3 point armour boost)
+
+-- Dunland, Enedwaith, Anduin, Khand, Harad, Rohan:
+Isengard, Royal Tharbad, Annuminas, Dol Amroth, Carn Dum, Thorins, Imladris, Thranduils Halls, Galadhon, Eregion, Dain's Halls, Moria, Gundabad, Dol Guldur, Umbar, Minas Tirith, Barad-dur, Erebor, Kirikhgathol, Mistrand, Black Gate, Mithlond
+-- Mordor, Dol Guldur, Moria:
+Minas Tirith, Lorien, Dol Amroth, Annuminas, Mithlond, Imladris, Thranduils Halls, Galadhon, Eregion, Erebor, Kirikhgathol, Umbar, Royal Tharbad, Isengard, Carn Dum, Thorins, Moria, Gundabad, Mistrand
+-- Rhun, Angmar, Isengard:
+Erebor, Kirikhgathol, Barad-dur, Lorien, Annuminas, Fornost, Thorins, Moria, Minas Tirith, Dol Amroth, Dol Guldur, Royal Tharbad, Imladris, Thranduils Halls, Galadhon, Eregion, Dain's Halls, Gundabad, Umbar, Isengard, Black Gate, Mithlond
+-- Woodelves, Lorien:
+Eregion
+-- Ar-Adunaim:
+Minas Tirith, Dol Amroth, Mithlond, Erebor, Kirikhgathol, Lorien, Imladris, Thranduils Halls, Galadhon, Eregion, Barad-dur, Isengard, Annuminas, Gundabad, Moria, Thorins Halls, Royal Tharbad, Carn Dum, Dain's Halls, Dol Guldur, Mistrand, Black Gate
+-- Gondor, Dol Amroth, Northedain:
+Umbar, Isengard, Barad-dur, Dol Guldur, Erebor, Kirikhgathol, Moria, Thorins, Dain's Halls, Gundabad, Royal Tharbad, Carn Dum, Imladris, Thranduils Halls, Galadhon, Eregion, Mistrand, Black Gate, Mithlond
+
+- Dorwinion do not get this system, they get the triple boost by siding with the Avari. 
+- Gundabad do not get this system, they get the triple boost from the Avengers Guild
+- Bree do not get this system, they get the triple boost by siding with the Dunedain
+- Dale do not get this system, they get the triple boost by being allied to Erebor (if they break the alliance they lose the triple boost)
+- High Elves & Dwarves do not get the triple boost
+
+
+- Enedwaith new unit: War Wagons - Light chariot unit armed with armour and body piercing javelins
+- Dorwinion new unit: Avari Spearmen - Medium tier Avari unit armed with spears and armour piercing javelins
+- Corruption income penalties in settlements are now *substantially* harsher. Use Generals as Governors with the re-worked "Acumen" stat and new governance-based Traits and Ancillaries to mitigate this!
+- AI's "Last Stand" armies now a lot more consistent in terms of quality. All are now the full 20 units with a similar mix of units of different tiers.
+- AI Gundabad now gets a Last Stand.
+- Many various adjustments to AI campaign balance accross almost all factions. In particularly Angmar should feel far more dangerous than before, Mordor not quite as stack spam heavy and Dorwinion a little more likely to survive.
+- Many various stats adjustments across the board.
+- Armour stats in particular should be much more logical and consistent. E.g. Gondor, Dol Amroth and Ar Adunaim now always have the highest Armour stats compared to other human units of the same tier.
+- A unit's Movement Speed on the battle map is now displayed on all unit information texts.
+- Mission rewards now only ever award one unit, however cash rewards signficiantly increased.
+- Angmar Conscripts re-named to 'Thralls'
+- Rhudaur Warriors re-named to 'Rhudaur Landsmenn'
+- Rhudaur Huscarles "re-named" to 'Rhudaur Huskarls'
+- Isengard Half-Orc Baneguard and Spearguard re-named to "Orc-Men Baneguard" and "Orc-Men Spearguard"
+- Enedwaith Elder Guildsmen bodyguards now use javelins and swords
+- Roads no longer give the player a Culture increase bonus (the bonus now AI only)
+- Level 2 Culture buildings now give +3% Culture, up from +2%. Level 3 Culture buildings now give +5% Culture, up from +3%. 
+- Factions all get a +1% Culture bonus to these buildings in a certain terrain (e.g. Dunland Mountains, Lothlorien Forest, Gondor Grassland)
+- Gondor and Dol Amroth's Military Academies have been replaced by 'Fiefdom Waystations'. Restricted to Castles this building allows re-training and Free Upkeep of all Fiefdom units from that castle
+- Dirt Roads can now be built at Village settlement level
+- Level 2 Leather Workers now require Town settlement level
+- Level 2 Health buildings (Baths, Healer's Posts etc.) now singificantly reduce unit retraining costs in the settlement.
+- Health buildings can now also be built in Castles
+- Mason's Lodge line buildings cost and building speed bonuses increased slightly
+- The Elven Theatre, Scupltor's Workshop and Gwaith-i-Eryhnthin buildings have been removed
+- Ents are now recruited from the core Walls in Isengard for Lothlorien and Woodland Realm
+- Tirith Aear Wardens are now an elite halberdier unit
+- Minas Ithil Guardians are now an elite two-handed sword unit
+- Khamul's Shadowguard are now an elite two-handed sword unit that can 'hide anywhere'
+- Mirkwood Uruks are now a heavy spear and shield unit
+- Visual upgraded added for Loke Gamp-Rim
+- Non-upgraded new look added for Loke Flag-Rim
+- All Rhun Loke units, plus Dragon's Wrath Guildsmen, now wear red under-armour clothing and capes instead of brown
+- Changed up the helmets of Dale's Lake-town Pikemen plus upgraded Dalian Swordsmen, Billmen, Longbowmen and Cavalry.
+- Upgraded Gondor Militia, Archer Militia and Cavalry Militia now have black tabbards instead of brown (for Gondor)
+- Gondor Bodyguard have a new visual upgrade
+- Gondor Cavalry no longer have lances and are now a sword and shield melee cavalry with an Attack bonus against other cavalry
+- Beorning Riders no longer have spears and are now an axe and shield melee cavalry with an Attack bonus against other cavalry
+- Merchant Cavalry now get an Attack bonus against other cavalry
+- Hasharii Shadows now use Poisoned Arrows
+- Significantly slowed down the replenishment rate of Moria's Snaga Archers, Snaga Skirmishers and Snaga Stalker
+- Significantly slowed down the replenishment rate of Mordor's Orc Band, Orc Raiders and Orc Scouts
+- Slightly slowed down the replenishment rate of Mordor's Black Uruks and Black Uruk Halberds and reduced their max unit pools by 1
+- Mordor can now also recruit Sauron's Will from Morannon and Minas Morgul with the Level 3 Barracks
+- Mordor can now also recruit Morgul Chosen from Morannon and Cirith Ungul with the Level 3 Barracks
+- Mordor can now also train the Harad, Rhun and Khand units from Yrch Estolad, in addition to Morannon and Minas Morgul
+- Heavy Goblin Infantry and Heavy Goblin Halberds now have a unit size of 252 (maximum)
+- Slightly increased the unit size of Heavy Goblin Archers and Heavy Goblin Crossbows
+- Slightly increase the unit size of Goblin Headhunters and Goblin Stalkers
+- New look for Dalian Woodsmen, Dalesmen and Rivermen **Credit to 'Theodron' of the Blood of Numenor mod'**
+- Dalesmen and Dalian Woodsmen re-named to 'Northmen Militia' and 'Northmen Archers'
+- Dol Guldur can no longer train Orc Raiders, but Mirkwood Goblins buffed slightly
+- Upgraded Elven Defender garrison units now use the look of the now-removed Nanhotari unit
+- Lothlorien's Elbereth Archers, Guards and Swordsmen re-named to 'Galadhrim Archers', 'Galadhrim Guards' and 'Galadhrim Swordsmen'
+- Galahdrim Guards are now a halberd unit
+- New look for Yavanna's Chosen
+- New visual upgrade for Lorien Lancers and Sentinels of Cerin Amroth
+- Gurveleg no longer use body piercing 'Silverthorn' arrows. Instead they use a unique 'Scatter Shot' missile, firing three arrows each with every volley.
+- Elvenking's Guard re-named to 'Aredhirith'
+- Elder Pathfinders re-named to 'Arthirocon'
+- Hir en-Ech, Hir e-lang and Hir e-beng re-named to 'Elvenking's Axeguard', 'Elvenking's Gateguard' and 'Elvenking's Bowguard'
+- Elvenking's Gateguard now use double-bladed glaives rather than swords
+- Elvenking's Axeguard are now an axe and shield unit with the 'shield wall' ability
+- New look for Hin e-Daur **Credit to 'Theodron' of the Blood of Numenor mod'**
+- Anduin's Silvan Marchwardens now use the old Hin e-Daur model
+- Greenwood Foresters Melee and Missile Attack reduced by -1, but now get a +3 Attack bonus against all Warg units
+- Visual tweaks to Beorning Warriors, Shieldbearers and Riders, including visual upgrade
+- New non-upgraded look for Blackroot Vale Archers **Credit to 'Theodron' of the Blood of Numenor mod'** (they upgrade to their previous appearances with armour upgrades)
+- Visual tweaks to Wulf's Swordsmen and Pikes
+- New helmets for Lake-town Pikemen and Dalian unit upgrades
+- New look for non-upgraded Erebor King's Axes, Shields, Warriors and Halberds **Credit to the team of the Edain mod for Battle for Middle Earth 2 for the new armour texture**
+- Visual changes to upgraded Erebor Infantry and Erebor Axethrowers
+- New look for Iron Hills Mattocks (one which more closely matches the brief description of the Dwarves accompanying Dain in the Hobbit book!)
+- The Balrog is now a General with a bodyguard of unique, extremely powerful, "Fire" Trolls, rather than a (crash prone) unit of his own.
+
+- Reduced the number of units that gain a special Attack bonus against Wargs. It is now just the following:
+-- Grey Company, Dunedain Bodyguard, Dunedain Wardens, Dunedain Scouts
+-- Carrock Guard, Greenwood Foresters, Beorning Warriors, Beorning Riders, Beorning Shieldbearers
+-- Dunland Beast Slayers
+-- Hithaeglir Beast Hunters
+-- Woodland Hunters
+-- Druedain Hunters
+-- Lorien Scouts
+-- Woodland Horse Archers
+-- Amanyar Rangers
+
+- Gondor's battle banner now has a black background, instead of blue
+- New Moria, Gundabad, Mordor, Dol Guldur, Ar-Adunaim, Lothlorien, Woodland Realm battle banners **Credit to 'Matsz'**
+- New Enedwaith and Dorwinion unit voices **Credit to '___' for the recordings**
+- New Dol Amroth, Anduin and Dunland voices **Credit to 'Liam Taylor' for the recordings**
+- Colour-coded evil faction Diplomats
+- Elves no longer have 'taunt' or 'battle shout' voices on the battle map. They should be a lot less noisy.
+- Reduced the chance of rain and storm worldwide and slightly increased the chance of fog in mountain regions
+- 0% probability of rain in 'highland' regions (mountain settlements)
+- Units now walk considerably faster in shallow water (this also includes bridges in settlements such as Osgiliath, Tolfalas and Rivendell)
+- You will no longer receive a relation penalty with other good factions if you fail to get the One Ring 
+
+
+Campaign Map
+- Tharbad is now a single region
+- Shedun renamed to Mount Gram and placed between the mountains
+- Henneth Annun is now a fort but still retains its previous battlemap
+- Imladris can only be accessed from the southern path now, removed the river crossings on the eastern side
+- There is now a mountain pass through the range between Dol Amroth and Linhir, and the two are now connected via a road
+- Removed two of the four river crossings between Dant'alad and Dorthalu
+- The border between Bregnas and Heorot is now blocked by a river
+- Expanded the impassable area around the mountains in Dorwinion to prevent irregular land formations on the battlefield
+- New settlement between Framsburg and Mount Gundabad: "Eorlstone"
+- New settlement between Barad Vin and Dun Lurach: "Bhaille"
+
+
+Battle Maps
+
+New Custom Settlements
+- Annuminas Ruined and Rebuilt
+- Mount Gram
+- Rivendell
+- Barrow-downs (Mengalen)
+
+Updated Custom Settlements
+- Zagh Kala
+  Added a wooden gate and arrow towers
+  The AI can now sally out of the settlement
+  Closed the two unused side entrances to the settlement
+- Erebor
+  Removed the bridge outside the gate
+- Fornost (Deadman's Dike)
+  All breaches in the outer wall have been closed, the newly added gate is now the only entrance. This ensures that the AI can sally out and defend the settlement more effectively. To compensate for the addition of the gate, there's now less space for deploying archers on the walls
+- Cair Andros
+  New layout
+  Every wall can now be manned
+- Thorin's Halls
+  Removed the bridge outside the gate
+  The AI can now sally out of the settlement
+- Buzra-dum
+  Added a wooden gate and arrow towers
+  The AI can now sally out of the settlement
+- New custom tile for Helm's Deep  
+
+New effects 
+- Unique fire and light effects for the Barrow-downs
+- Unique waterfall and fountain effects for Rivendell
+
+Campaign Strategy Models
+- New Mount Gram model
+- New Thorin's Halls model
+- New Fahamgathol model
+
+
+Traits
+- removed or reworked all existing vanilla traits
+- Chivalry system reworked - Negative chivalry aka Dread is now used by a few specific generals - Sauron, Nazguls, King of the Dead, Saruman. Positive Chivalry is renamed to Renown and is now used by all other generals.
+  "Good" factions (Elves, Dwarves, ND, Dol Amroth, Gondor, Northmen, Enedwaith) generals gain "good" Renown trait by killing orcish prisoners, exterminating/sacking orcish settlements, occupying non orcish settlements, ransoming or releasing non orcish prisoners, paying ransom for your own prisoners, generals fighting in battle and getting kills, being a good governor (not having people rebel or riot). You can lose renown if you execute non orcish prisoners, exterminate non orcish settlements (rebel settlements dont count), refuse to ransom your captives if you have certain amount of money, generals not fighting in battle and losing it
+  "Evil" factions (Orcs, Rhun, Harad, AA, Dunland, Angmar, Khand - even if you go good path) gain "bad" Renown trait in same, but opposite way as the good factions -Orcs gain it by exterminating settlements, executing prisoners, general unit fighting in battle etc, while non orcs gain it for extermination and executing orcish towns/prisoners also.
+- Piety was renamed Acumen, and it now serves as an attribute and base for acquiring better management/governance/economy traits. It increases income of the settlements slightly and helps fighting corruption.
+- Brand new tooltips for 'Command' 
+- Brand new tooltips and UI symbols for 'Acumen' and 'Renown'
+- Supply system: Every major race gets its own supply trait line and it differs slightly how fast it depletes or replenishes. General starts with max supply and it replenishes very fast in friendly provinces/settlements. It gets depleted while in enemy provinces or when being besieged. Having max supply gives you some battlesurgery effect, while having less than max will give you slight morale hit and movement points reduction (to simulate army foraging for supplies). It wont have major effect on the gameplay, but it is there for extra immersion.
+- Many provinces have a negative debuffs for certain factions when in that province:
+  > Lorien gives big negative effect (especially for orcs) to non elven factions while owned by Lothlorien
+  > Mirkwood gives debuff except for Elven factions, Vale of ANduin and Dol Guldur.
+  > Southeren Arid/hot zones of Harad give Arid Climate debuff to all factions except Ar Adunaim, Harad, Rhun and Khand, while Harad and Khand also get bonus while in these provinces
+  > Northeren cold provinces give Cold Climate debuff to all factions except Dwarves, Gundabad and Angmar, while Angmar and Gundabad also get a bonus while in those provinces
+  > Mordor (proper) provinces give Ash Climate debuff for all non orcish factions, while orcs gain buff while in those provinces
+- Special wounded and injury traits - generals can now pick up lasting injuries
+- Fixed faction leader/heir trait related postbattle crash should they die in battle
+- Added new race and sub race traits
+- Generals can obtain banner of a faction they fought in battle, tracked by a trait. Collect a few different ones and you obtain special ancillary
+- Gundabad and Moria generals can obtain head of dwarves of different factions. Collect all 3 and get special reward.
+- Night battle capable generals will now be harder to get as a player
+- Generals can become reckless or cautious which could provide different buffs or debuffs depending on the trait level achieved
+- Generals who are part of the army but not leading it, gain Auxillary General trait after few turns, lowering their bodyguard unit size, hit points and troop morale.
+- Traits tied to different guilds added
+- Tied some traits to ancillaries
+- Added path specific traits for faction with a choice script (Bree, Khand, Dorwinion)
+- Added merchant traits
+- Added more than 100 new traits
+- There are now 658 traits in the game
+
+Ancillaries
+- Reworked many ancillary effects and ways to obtained them
+- Turned some ancillaries into traits where it made sense to not have them clogging general ancillary slots (titles, offices, etc)
+- Made a number of ancillaries inheritable
+- Some ancillaries tied to traits
+- Many new ancillaries added
+- Removed all unused old ancillary images
+- Added merchant ancillaries
+- There are now 681 ancillaries in the game

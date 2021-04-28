@@ -1,0 +1,22 @@
+ 12 Stone_Fort_E
+ 10 settlement
+ 78 settlements/North_European/ambient_settlements/Stone_Fort_E/Stone_Fort_E.world
+6         number of pairs of attributes to follow 
+  7 culture
+ 17 northern_european
+
+ 11 environment
+  7 generic
+
+  7 faction
+  3 any
+
+ 18 fortificationlevel
+  1 3
+
+  4 type
+ 12 default_fort
+
+  7 variant
+ 12 stone_fort_e
+

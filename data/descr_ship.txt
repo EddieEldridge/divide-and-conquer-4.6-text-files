@@ -1,0 +1,38 @@
+type				flagship
+ship_type			flag
+carrying_capacity		5
+size				200
+speed				40
+power				sail
+artillery			rock
+ram				yes
+durability			15
+armour				15
+depth				10
+beam				20
+
+type				heavy warship
+ship_type			war
+carrying_capacity		4
+size				200
+speed				40
+power				sail
+artillery			rock
+ram				yes
+durability			15
+armour				15
+depth				10
+beam				20
+
+type				light warship
+ship_type			war
+carrying_capacity		3
+size				30
+speed				7
+power				sail
+artillery			flame
+ram				yes
+durability			10
+armour				10
+depth				10
+beam				20

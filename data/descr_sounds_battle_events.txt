@@ -1,0 +1,11 @@
+;##################################
+;##### SOUNDS - BATTLE EVENTS #####
+;##################################
+
+DEFAULT: 1d streamed priority 500 volume 0 fadein 0 fadeout .5 randomdelay 0 rndvolume 0 pan .5 delay 0 dry_level 1.0 wet_level 0 streamed pref SPEECH probability 1 ignore_pause 1 ducking
+
+BANK: battle_events
+
+repeat_timeout 20.0
+
+source export_descr_sounds_units_battle_events.txt

@@ -1,0 +1,19 @@
+  7 dalet_A
+  8 techtree
+ 67 settlements/Unique_Settlements/Erebor/dale_for_erebor/dalet_A.world
+5         number of pairs of attributes to follow 
+  8 category
+  4 dale
+
+  7 culture
+ 17 southern_european
+
+ 11 environment
+  7 generic
+
+  4 size
+  7 200x200
+
+  4 type
+ 11 slot_filler
+

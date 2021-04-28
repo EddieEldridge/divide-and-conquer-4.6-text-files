@@ -1,0 +1,16 @@
+ 13 elf_village_b
+ 10 settlement
+ 62 settlements/Unique_Settlements/Elf_village/elf_village_a.world
+4         number of pairs of attributes to follow 
+  7 culture
+ 17 southern_european
+
+ 11 environment
+  7 generic
+
+  7 faction
+  7 mongols
+
+  4 type
+  7 village
+
