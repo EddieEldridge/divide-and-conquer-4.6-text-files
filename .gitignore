@@ -1,7 +1,6 @@
 *.tga
 *.dds
 *.texture
-*.modeldb
 *.bin
 *.cas
 *.CAS
@@ -30,7 +29,6 @@
 *.veg_sprite
 *.gif
 *.bits*
-*.model*
 *.lnt
 *.ani
 *.skel
