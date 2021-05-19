@@ -9,8 +9,6 @@
 *.dat
 *.evt
 *.idx
-*.db
-*.cfg
 *.sav
 *.ico
 *.anim*
@@ -19,7 +17,6 @@
 *.world*
 *.wfc
 *.tmp
-*.bat
 *.exe
 *.jpg
 *.bits
@@ -29,10 +26,10 @@
 *.veg_sprite
 *.gif
 *.bits*
-*.lnt
 *.ani
 *.skel
 *.mtl
 *.sprite
 *.vege_model
 *.vege_sprite*
+*.db
